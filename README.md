@@ -2,4 +2,4 @@ Project made with Node.js.
 
 Run the server with
 
-`node index.js`
+`npm start` or `node src/index.js`
