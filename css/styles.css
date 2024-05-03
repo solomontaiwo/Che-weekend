@@ -1,54 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-color: #222222;
+  color: white;
+  padding: 0 10%;
 }
 
 .container {
-    text-align: center;
-    margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 #suggestBtn {
-    padding: 15px 30px;
-    font-size: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #activityDisplay {
-    margin-top: 20px;
-    font-size: 24px;
-    font-weight: bold;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .app-name {
-    text-align: center;
+  text-align: center;
 }
 
 .app-name h1 {
-    margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .suggest-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #suggestBtn {
-    padding: 15px 30px;
-    font-size: 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
